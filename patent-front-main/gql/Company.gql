@@ -1,0 +1,18 @@
+query company {
+  company{
+    ni
+    cnaePrincipal {
+      codigo
+      descricao
+    }
+    tipoEstabelecimento
+    nomeEmpresarial
+    nomeFantasia
+    correioEletronico
+    capitalSocial
+    porte
+    situacaoEspecial
+    dataSituacaoEspecial
+    dataAbertura
+  }
+}

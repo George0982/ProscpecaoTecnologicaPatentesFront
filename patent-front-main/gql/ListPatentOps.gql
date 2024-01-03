@@ -1,0 +1,28 @@
+query ($q: String, $range: String) {
+  listPatentOps(q: $q, range: $range ) {
+    total
+    list { 
+        applicationReference
+        inventor 
+        applicant
+        country
+        docNumber
+        kind
+        bibliographicData {
+            documentId {
+                documentIdType
+                country
+                docNumber
+                kind
+                date
+            }
+        }
+        inventionTitle
+        abstract {
+            lang
+            p
+        }
+        link
+    }
+  }
+}

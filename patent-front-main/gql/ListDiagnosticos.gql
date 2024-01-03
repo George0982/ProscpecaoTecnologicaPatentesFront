@@ -1,0 +1,8 @@
+query listDiagnosticos {
+  listDiagnosticos{
+    oferta
+    plataforma
+    capturaValor
+    cadeiaSuprimentos
+  }
+}

@@ -1,0 +1,137 @@
+#app {
+  font-family: "Nunito Sans", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+body {
+  font-family: "Nunito Sans", "Helvetica Neue", Arial, sans-serif !important;
+  background-color: #f3f7fa;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: #dcdcdc !important;
+  border-radius: 5px !important;
+}
+
+.scroll::-webkit-scrollbar-thumb:hover {
+  background: #b0b0b0 !important;
+}
+
+.card-shadow {
+  box-shadow: 0 1px 15px 1px rgb(39 39 39 / 10%) !important;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.v-text-field--outlined fieldset {
+  border-color: #bce0fd !important;
+}
+
+// css relatorio inicio
+.relatorio h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.relatorio .description .cap-list ul li {
+  white-space: pre-wrap;
+}
+
+.relatorio .description .list ul li,
+.relatorio .description .cap-list ul li {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.relatorio .description .list ul li:nth-of-type(2n + 1)::before {
+  content: "*";
+}
+
+.relatorio .description .list ul li:nth-of-type(2n) {
+  margin-left: 14px;
+  margin-bottom: 5px;
+}
+
+.relatorio .description .list ul li:nth-of-type(2n + 1) {
+  font-weight: 700;
+  margin-bottom: 3px;
+}
+
+.relatorio .cap {
+  margin-top: 10px;
+}
+
+.relatorio .note {
+  margin-top: 83px;
+  position: relative;
+}
+
+.relatorio .note::before,
+.relatorio .note::after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+.relatorio .note::before {
+  width: 40%;
+  height: 1px;
+  background-color: teal;
+  bottom: -10px;
+  left: -20px;
+  -webkit-print-color-adjust: exact;
+}
+
+.relatorio .note::after {
+  width: 14px;
+  height: 120px;
+  bottom: -130px;
+  left: 0;
+  -webkit-print-color-adjust: exact;
+}
+
+.relatorio .description {
+  margin-top: 20px;
+}
+
+.relatorio .description p {
+  font-size: 11px !important;
+  font-weight: 400 !important;
+  padding-top: 0;
+}
+
+.relatorio .description span {
+  font-weight: 600 !important;
+  font-size: 11px;
+}
+
+.relatorio .cap-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.relatorio .cap-list ul li span {
+  margin-right: 5px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+.relatorio .mini {
+  display: flex;
+  align-items: flex-end;
+  font-size: 7px;
+}
+// css relatorio fim

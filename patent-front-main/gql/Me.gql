@@ -1,0 +1,26 @@
+query me {
+  me{
+    email
+    firstName
+    lastName
+    phone
+    createdAt
+    company {
+      ni
+      cnaePrincipal {
+        codigo
+        descricao
+      }
+      tipoEstabelecimento
+      tipoEstabelecimento
+      nomeEmpresarial
+      nomeFantasia
+      correioEletronico
+      capitalSocial
+      porte
+      situacaoEspecial
+      dataSituacaoEspecial
+      dataAbertura
+    }
+  }
+}

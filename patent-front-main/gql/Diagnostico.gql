@@ -1,0 +1,32 @@
+query diagnostico {
+  diagnostico{
+    oferta {
+      diagnosticoItem {
+        description
+        value
+      }
+      total
+    }
+    plataforma {
+      diagnosticoItem {
+        description
+        value
+      }
+      total
+    }
+    capturaValor {
+      diagnosticoItem {
+        description
+        value
+      }
+      total
+    }
+    cadeiaSuprimentos {
+      diagnosticoItem {
+        description
+        value
+      }
+      total
+    }
+  }
+}
